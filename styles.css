@@ -39,7 +39,9 @@ body {
     height: 70px;
     width: 70px;
 }
-
+.space4{
+    height: 60px;
+}
 .text{
     display: flex;
     justify-content: center;
@@ -48,20 +50,19 @@ body {
 }
 
 .gest{
-    padding-top: 50px;
+    height: 60px;
     color:  #232A31;
     font-size: 40px; 
     font-family: system-ui;
 }   
 
 .date{
-    margin-block-start: 0.5em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-size:15px;
     font-family: system-ui
     
+}
+.space2{
+    height: 17px;
 }
 
 .Searchplace{
@@ -79,10 +80,8 @@ body {
 .textbar{
     flex: 1;
     justify-content: flex-start;
-    margin-right: 10px;
     border: none;
     outline: none;
-    padding: 5px;
 }
 
 .textbar::placeholder {
@@ -96,14 +95,15 @@ body {
     justify-content: center;
     flex-direction: row;
     gap: 20px;
-    padding-top: 25px;
+}
+.space1{
+    height: 20px;
 }
 
 .buttons button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;  
     background-color: #ffffff;
     width: 100px; 
     height: 40px;
@@ -128,26 +128,28 @@ body {
     color: #0d0505; 
     margin-left: 10px;
 }
+.space{
+    height: 30px;
+}
 
 .span{
     display: flex;
-    flex-wrap: nowrap;
-    padding:35px 300px 5px 300px ;
-    /* margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px; */
+    justify-content: center;
 }
 .your-block {
     background-color: rgb(246, 246, 253);
-    padding: 25px 10px 15px;
-    border-radius: 15px;
-    margin: 0 50px 10px;
+    border-radius: 10px;
     font-size: 14px;
     line-height: 1.5em;
     color: #464e56;
-    text-align: justify; 
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
+
+
 
 .list-one .l1 li a,
 .list-two .l2 li a {
