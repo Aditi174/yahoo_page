@@ -11,6 +11,12 @@ body {
     justify-content: space-between;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .image {
     display: flex;
     height: 100px;
@@ -41,7 +47,7 @@ body {
 }
 
 .space4 {
-    height: 60px;
+    height: 40px;
 }
 
 .text {
@@ -157,7 +163,6 @@ body {
 .innerbox {
     /* padding: 2px; */
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;    
     border-radius: 10px;
@@ -193,15 +198,68 @@ body {
 .space5{
     height: 25px;
 }
+
+.heading{
+    width: 100%;
+}
+
 .box{
-    display: flex;
-    justify-content: flex-start;
     font-family: system-ui;
     font-weight: normal;
     font-size: 23px;
     margin: 0px;
+    padding-left: 15px;
+    padding-top: 15px;
+
 }
 
 .space6{
     height: 20px;
 }
+.bottom a {
+    text-decoration: none;
+}
+
+.set{
+    height: 17px;
+    width: 17px;
+    margin-top: 15px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.height{
+    height: 200px;
+    border-top: #a09c9c;
+}
+
+/* Example CSS for a footer similar to Yahoo's style */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.last a {
+    color: #a09f9c;
+    text-decoration: none;
+}
+
+.last {
+    display: flex;
+    gap: 10px; 
+}
+
+.set {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; 
+}
+
+
+
