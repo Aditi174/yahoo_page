@@ -1,14 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0 100px 100px 100px;
+    margin: 0px;
 }
 
 .origin {
     display: flex;
-    margin-top: 10px;
+    margin-top: 0px;
     align-items: center;
     justify-content: space-between;
+    padding-left: 150px;
 }
 
 .main{
@@ -27,6 +28,7 @@ body {
 .logos {
     display: flex;
     gap: 40px;
+    padding-right: 80px;
 }
 
 .mail {
@@ -216,50 +218,39 @@ body {
 .space6{
     height: 20px;
 }
-.bottom a {
-    text-decoration: none;
+
+.height{
+    height: 110px;
 }
 
-.set{
-    height: 17px;
-    width: 17px;
-    margin-top: 15px;
+.bottom a {
+    text-decoration: none;
+    font-family:system-ui;
+    font-size: 13px;
+    color: #464e56;
 }
 
 .bottom{
+    background-color: #f4f6f9;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding-top:13px ;
+    padding-bottom: 20px;
 }
 
-.height{
-    height: 200px;
-    border-top: #a09c9c;
+.set{
+    height: 16px;
+    width: 16px;
 }
 
-/* Example CSS for a footer similar to Yahoo's style */
-footer {
-    background-color: #f9f9f9;
-    padding: 20px;
-    text-align: center;
-}
-
-.last a {
-    color: #a09f9c;
-    text-decoration: none;
-}
-
-.last {
+.side{
     display: flex;
-    gap: 10px; 
+    padding-right: 45px;
+    gap: 2px;
 }
 
-.set {
+.last{
     display: flex;
-    justify-content: flex-end;
-    gap: 10px; 
+    gap: 17px;
 }
-
-
-
